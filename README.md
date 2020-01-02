@@ -33,7 +33,11 @@ Dickinson College '21.
 
 - [Dung Tuan Le](https://github.com/dle8) <br/>
 Computer Science major.  
-University of Rochester '21.  
+University of Rochester '21.
+
+- [Dung Van Le](https://github.com/dle26) <br />
+Computer Science major.
+Case Western Reserve University '22.
 
 
 ## License
