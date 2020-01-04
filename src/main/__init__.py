@@ -9,7 +9,7 @@ app.config.from_object(config)
 
 
 def _register_subpackages():
-    pass
+    import src.main.models
 
 
 mail = Mail()
@@ -20,6 +20,14 @@ cors.init_app(app)
 
 # Connect to Cassandra db with 'Kronos' keyspace
 cluster = Cluster()
-session = cluster.connect('Kronos')
+session = cluster.connect()
+session.execute(
+    """
+    CREATE KEYSPACE %s WITH replication = {'class': %s, 'replication_factor': %s};
+    """,
+    (config.KEYSPACE, config.STRATEGY, config.REPLICATION_FACTOR)
+)
+
+session.set_keyspace(config.KEYSPACE)
 
 _register_subpackages()
