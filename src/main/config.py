@@ -10,6 +10,11 @@ class Config(object):
     MAIL_DEFAULT_SENDER = ''
     MAIL_APP_PASSWORDS = ''
 
+    # CASSANDRA
+    KEYSPACE = 'kronos'
+    REPLICATION_FACTOR = 3
+    STRATEGY = 'SimpleStrategy'
+
     SECRET_KEY = 'secret'
 
 
