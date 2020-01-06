@@ -4,3 +4,4 @@ graphene==2.1.8
 flask==1.1.1
 flask-cors==3.0.8
 flask-mail==0.9.1
+requests
