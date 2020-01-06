@@ -15,6 +15,10 @@ class Config(object):
     REPLICATION_FACTOR = 3
     STRATEGY = 'SimpleStrategy'
 
+    # NEVERBOUNCE
+    EMAIL_VERIFICATION_URL = 'https://api.neverbounce.com/v4/single/check?key={}&email={}'
+    API_KEY = ''
+
     SECRET_KEY = 'secret'
 
 
