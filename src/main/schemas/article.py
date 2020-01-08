@@ -9,6 +9,9 @@ class ArticleType(ObjectType):
     title = String(required=True)
     snippet = String(required=True)
 
+    def __init__(self, *args, **kwargs):
+        pass
+
     @staticmethod
     def resolve_url(parent, info, **kwargs):
         return parent.url
