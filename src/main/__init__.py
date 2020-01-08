@@ -7,11 +7,6 @@ from cassandra.cluster import Cluster
 app = Flask(__name__, template_folder='../../templates')
 app.config.from_object(config)
 
-
-def _register_subpackages():
-    import src.main.models
-
-
 mail = Mail()
 mail.init_app(app)
 
@@ -30,4 +25,16 @@ session.execute(
 
 session.set_keyspace(config.KEYSPACE)
 
-_register_subpackages()
+# Get the root query and mutation schemas
+import src.main.schemas
+from src.main.schemas.query import Query
+from graphene import Schema
+
+# schema = Schema(
+#     query=Query,
+#     mutation=Mutation,
+#     subscription=Subscription
+# )
+
+import src.main.models
+import src.main.controllers
