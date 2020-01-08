@@ -17,7 +17,11 @@ class Config(object):
 
     # NEVERBOUNCE
     EMAIL_VERIFICATION_URL = 'https://api.neverbounce.com/v4/single/check?key={}&email={}'
-    API_KEY = ''
+    NEVERBOUNCE_API_KEY = ''
+
+    # ALPHA ADVANTAGE
+    ALPHA_ADVANTAGE_API_KEY = ''
+    ALPHA_ADVANTAGE_TIME_SERIES_INTRADAY_API = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={}&interval={}&outputsize={}&apikey={}'
 
     SECRET_KEY = 'secret'
 
