@@ -3,7 +3,7 @@ from src.main.libs.alpha_advantage.query_stock import fetch_stock_prices
 from . import data
 
 
-class Stock(ObjectType):
+class StockType(ObjectType):
     name = String(required=True)
     symbol = String(required=True, symbol=String())  # Index in Cassandra
     price = Int()
