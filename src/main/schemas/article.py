@@ -1,28 +1,38 @@
-from graphene import ObjectType, UUID, String
-from src.main.schemas.base_schema import ID
+from graphene import ObjectType, String
+from src.main.utils.fetch_article import fetch_article_all_methods
 
 
-class Article(ObjectType):
-    class Meta:
-        interfaces = (ID,)
-
-    id = UUID(required=True)
-    url = String(required=True)
+@fetch_article_all_methods
+class ArticleType(ObjectType):
+    url = String(required=True, url=String())
     thumbnail = String(required=True)
     title = String(required=True)
     snippet = String(required=True)
 
-    def resolve_id(self, info, **kwargs):
-        return self.id
+    @staticmethod
+    def resolve_url(parent, info, **kwargs):
+        return parent.url
 
-    def resolve_url(self, info, **kwargs):
-        return self.url
+    @staticmethod
+    def resolve_thumbnail(parent, info, **kwargs):
+        article = kwargs['article']
 
-    def resolve_thumbnail(self, info, **kwargs):
-        return self.thumbnail
+        return article.thumbnail
 
-    def resolve_title(self, info, **kwargs):
-        return self.title
+    @staticmethod
+    def resolve_title(parent, info, **kwargs):
+        article = kwargs['article']
 
-    def resolve_snippte(self, info, **kwargs):
-        return self.snippet
+        return article.title
+
+    @staticmethod
+    def resolve_snippet(parent, info, **kwargs):
+        article = kwargs['article']
+
+        return article.snippet
+
+    @staticmethod
+    def resolve_date_published(parent, info, **kwargs):
+        article = kwargs['article']
+
+        return article.date_published
