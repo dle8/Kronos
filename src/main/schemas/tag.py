@@ -3,7 +3,7 @@ from src.main.schemas.article import ArticleType
 from src.main.models.user_article import UserArticle
 
 
-class Tag(ObjectType):
+class TagType(ObjectType):
     name = String(required=True, name=String())
     articles = List(NonNull(ArticleType))
 
