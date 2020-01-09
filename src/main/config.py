@@ -1,7 +1,7 @@
 class Config(object):
     DEBUG = True
 
-    # Google mail
+    # GOOGLE MAIL
     MAIL_SERVER = 'smtp.gmail.com'
     MAIL_PORT = 587
     MAIL_USE_TLS = True
@@ -9,6 +9,10 @@ class Config(object):
     MAIL_PASSWORD = ''  # google app token
     MAIL_DEFAULT_SENDER = ''
     MAIL_APP_PASSWORDS = ''
+
+    # GOOGLE CUSTOM SEARCH
+    GOOGLE_CUSTOM_SEARCH_API_KEY = 'AIzaSyAmmXUHk_1Ogd2g-l5fkHg6tGHpTskxTSo'
+    GOOGLE_CUSTOM_SEARCH_CSE_ID = '004633013588841260401:xhqsuqmjfa7'
 
     # CASSANDRA
     KEYSPACE = 'kronos'
