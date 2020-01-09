@@ -8,12 +8,12 @@ from src.main.libs.neverbounce.verify_email import validate_email
 
 
 class User(Model):
-    __keyspace__ = config.KEYSPACE  # CASSANDRA KEYSPACE
+    __keyspace__ = config.KEYSPACE
     email = Text(required=True, primary_key=True)
     hashed_password = Text(required=True)
     stock_symbols = Set(Text)
     tag_names = Set(UserDefinedType(Tag))
-    articles = Set(UserDefinedType(Article))
+    article_urls = Set(UserDefinedType(Article))
 
     def validate(self):
         super(User, self).validate()
