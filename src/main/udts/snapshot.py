@@ -6,9 +6,9 @@ import uuid
 
 
 class Snapshot(object):
-    id = UUID(default=uuid.uuid4())
-    start = Date(default=datetime.now().date())
-    end = Date(default=datetime.now().date())
+    id = UUID(default=uuid.uuid4)
+    start = Date(default=datetime.now().date)
+    end = Date(default=datetime.now().date)
     articles = List(UserDefinedType(article))
 
 
