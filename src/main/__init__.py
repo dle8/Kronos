@@ -30,9 +30,11 @@ import src.main.schemas
 from src.main.schemas.query import Query
 from graphene import Schema
 
+schema = Schema(query=Query)
 # schema = Schema(
 #     query=Query,
 #     mutation=Mutation,
+#     types=[]
 #     subscription=Subscription
 # )
 
