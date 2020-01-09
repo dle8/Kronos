@@ -1,4 +1,4 @@
-from graphene import ObjectType, String
+from graphene import ObjectType, String, Date
 from src.main.utils.fetch_article import fetch_article_all_methods
 
 
@@ -8,13 +8,16 @@ class ArticleType(ObjectType):
     thumbnail = String(required=True)
     title = String(required=True)
     snippet = String(required=True)
+    date_published = Date(required=True)
 
     def __init__(self, *args, **kwargs):
         pass
 
     @staticmethod
     def resolve_url(parent, info, **kwargs):
-        return parent.url
+        article = kwargs['article']
+
+        return article.url
 
     @staticmethod
     def resolve_thumbnail(parent, info, **kwargs):
