@@ -5,7 +5,6 @@ import uuid
 
 
 class Article(UserType):
-    id = UUID(default=uuid.uuid4())
     url = Text(required=True)
     thumbnail = Text(required=True)
     title = Text(required=True)
