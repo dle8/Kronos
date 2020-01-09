@@ -1,16 +1,21 @@
 from functools import wraps
 from src.main.models.article import Article
+from src.main.libs.google_search.fetch_article_metadata import fetch_url_metadata
 
 
 def fetch_article(f, **fields):
     @wraps(f)
     def wrapper(*args, **kwargs):
-        url = fields['url']
-        article = Article.objects.filter(url=url).first()
-        if not article:
-            raise Exception('Invalid article url.')
+        if fields['article']:
+            kwargs['article'] = fields['article']
+        else:
+            url = fields['url']
+            article = Article.objects.filter(url=url).first()
+            if not article:
+                article = fetch_url_metadata(search_term=fields['search_term'])
 
-        kwargs['article'] = article
+            kwargs['article'] = article
+
         return f(*args, **kwargs)
 
     return wrapper
