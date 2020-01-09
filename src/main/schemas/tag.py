@@ -14,8 +14,10 @@ class TagType(ObjectType):
     # Remember to pass email into to fetch a certain user's articles
     @staticmethod
     def resolve_articles(parent, info, **kwargs):
+        # Todo: Allowing query for a certain article with certain url
         article_urls = UserArticle.objects.filter(
             email=kwargs['email'],
             tag_name=parent.name
         ).first().urls
+
         return [ArticleType(url=article_url) for article_url in article_urls]
