@@ -26,12 +26,14 @@ class UserType(ObjectType):
 
     @staticmethod
     def resolve_stocks(parent, info, **kwargs):
+        # Todo: Allowing query for a certain stock
         user = kwargs['user']
 
         return [StockType(symbol=stock_symbol) for stock_symbol in user.stock_symbols]
 
     @staticmethod
     def resolve_tags(parent, info, **kwargs):
+        # Todo: Allowing query for a certain tag
         user = kwargs['user']
 
         return [TagType(name=tag_name) for tag_name in user.tag_names]
