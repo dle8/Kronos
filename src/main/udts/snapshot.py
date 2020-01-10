@@ -1,15 +1,13 @@
 from src.main import cluster
 from cassandra.cqlengine.columns import *
-from . import article
-from datetime import datetime
-import uuid
+from src.main.udts.article import Article
 
 
 class Snapshot(object):
-    id = UUID(default=uuid.uuid4)
-    start = Date(default=datetime.now().date)
-    end = Date(default=datetime.now().date)
-    articles = List(UserDefinedType(article))
+    name = Text(required=True)
+    start_date = Date()
+    end_date = Date()
+    articles = List(UserDefinedType(Article))
 
 
 cluster.register_user_type('kronos', 'snapshot', Snapshot)
