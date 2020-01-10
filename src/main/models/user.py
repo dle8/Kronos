@@ -10,9 +10,9 @@ class User(Model):
     email = Text(required=True, primary_key=True)
     hashed_password = Text(required=True)
     stock_symbols = Set(Text)
-    tag_names = Set(UserDefinedType(Text))
-    article_urls = Set(UserDefinedType(Text))
-    snapshot_names = Set(UserDefinedType(Text))
+    tag_names = Set(Text)
+    article_urls = Set(Text)
+    snapshot_names = Set(Text)
 
     def validate(self):
         super(User, self).validate()
