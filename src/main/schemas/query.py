@@ -1,18 +1,26 @@
-from graphene import ObjectType, List, NonNull, Field, Int, String, UUID
-from src.main.schemas.stock import Stock
-from src.main.schemas.tag import Tag
-from src.main.schemas.snapshot import Snapshot
-from src.main.schemas.article import Article
+from graphene import ObjectType, List, NonNull, Field, Int, String
+from src.main.schemas.stock import StockType
+from src.main.schemas.user import UserType
+
+from flask import session
 
 
 class Query(ObjectType):
-    stocks = Field(List(NonNull(Stock)), last=Int())
-    tags = Field(List(NonNull(Stock)), last=Int())
-    articles = Field(List(NonNull(Article)), last=Int())
+    stocks = Field(List(NonNull(StockType)), first=Int(), offset=Int(), symbol=String(required=True))
+    user = Field(String, email=String(required=True))
 
-    stock = Field(Stock, ticker_symbol=String(required=True))
-    tag = Field(Tag, name=String(required=True))
-    article = Field(Article, id=UUID(required=True))
-    snapshot = Field(Snapshot, id=UUID(required=True))
+    @staticmethod
+    def resolve_user(parent, info, **kwargs):
+        # Todo: Add email to JWT
+        if session['email'] != kwargs['email']:
+            raise Exception('Invalid user email.')
 
-    # Todo: resolver functions for each query
+        return UserType(email=kwargs['email'])
+
+    @staticmethod
+    def resolve_stocks(parent, info, **kwargs):
+        if kwargs.get('symbol', None):
+            return [StockType(symbol=kwargs['symbol'])]
+
+        # Todo: Use memcached for most recent searched stocks, here is just hardcoding
+        return [StockType(symbol=symbol) for symbol in ['AAPL', 'FB', 'MSFT', 'GOOGL', 'AMZN']]
