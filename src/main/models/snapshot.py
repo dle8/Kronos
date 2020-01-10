@@ -9,6 +9,7 @@ class Snapshot(Model):
     __keyspace__ = config.KEYSPACE
     email = Text(required=True, primary_key=True)
     name = Text(required=True, primary_key=True)
+    stock_symbol = Text(required=True)
     start_date = Date(required=True)
     end_date = Date(required=True)
     # Use Article but not Text (like in User Model). Trades off data denormalization for more efficient article fetching
