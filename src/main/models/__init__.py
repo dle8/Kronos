@@ -1,1 +1,1 @@
-from . import article, user, user_article
+from . import article, user, user_article, snapshot
