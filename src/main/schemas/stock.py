@@ -12,10 +12,10 @@ class StockType(ObjectType):
     name = String(required=True)
     symbol = String(required=True, symbol=String())  # Index in Cassandra
     price = Int()
+    start_date = Date()
+    end_date = Date(default_value=datetime.now().date)
     articles = List(
         NonNull(ArticleType),
-        start_date=Date(),
-        end_data=Date(default_value=datetime.now().date()),
         start=Int(default_value=1)
     )  # start for pagination
 
