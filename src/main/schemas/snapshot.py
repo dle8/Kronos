@@ -1,25 +1,36 @@
-from graphene import ObjectType, UUID, Date, List, NonNull
-from src.main.schemas.base_schema import ID
-from src.main.schemas.article import Article
+from graphene import ObjectType, Date, List, NonNull, String
+from src.main.schemas.article import ArticleType
 
 
-class Snapshot(ObjectType):
-    class Meta:
-        interfaces = (ID,)
+class SnapshotType(ObjectType):
+    name = String(required=True)
+    start_date = Date()
+    end_date = Date()
+    articles = List(NonNull(ArticleType))
 
-    id = UUID(required=True)
-    start = Date()
-    end = Date()
-    articles = List(NonNull(Article))
+    def __init__(self, *args, **kwargs):
+        pass
 
-    def resolve_id(self, info, **kwargs):
-        return self.id
+    @staticmethod
+    def resolve_name(parent, info, **kwargs):
+        snapshot = kwargs['snapshot']
 
-    def resolve_start(self, info, **kwargs):
-        return self.start
+        return snapshot['name']
 
-    def resolve_end(self, info, **kwargs):
-        return self.end
+    @staticmethod
+    def resolve_start_date(parent, info, **kwargs):
+        snapshot = kwargs['snapshot']
 
-    def resolve_articles(self, info, **kwargs):
-        return self.articles
+        return snapshot['start_date']
+
+    @staticmethod
+    def resolve_end_date(parent, info, **kwargs):
+        snapshot = kwargs['snapshot']
+
+        return snapshot['end_date']
+
+    @staticmethod
+    def resolve_articles(parent, info, **kwargs):
+        snapshot = kwargs['snapshot']
+
+        return snapshot.article
