@@ -1,6 +1,7 @@
 from graphene import ObjectType, String, List, NonNull
 from src.main.schemas.stock import StockType
 from src.main.schemas.tag import TagType
+from src.main.schemas.snapshot import SnapshotType
 from src.main.utils.fetch_user import fetch_user_all_methods
 
 
@@ -8,8 +9,9 @@ from src.main.utils.fetch_user import fetch_user_all_methods
 class UserType(ObjectType):
     email = String(required=True, email=String())
     hashed_password = String()
-    stocks = List(NonNull(StockType))
+    stocks = List(NonNull(StockType), symbol=String())
     tags = List(NonNull(TagType))
+    snapshots = List(NonNull(SnapshotType), name=String())
 
     def __init__(self, *args, **kwargs):
         pass
@@ -37,3 +39,11 @@ class UserType(ObjectType):
         user = kwargs['user']
 
         return [TagType(name=tag_name) for tag_name in user.tag_names]
+
+    @staticmethod
+    def resolve_snapshots(parent, info, **kwargs):
+        user = kwargs['user']
+
+        snapshot_names = user.snapshot_names if not kwargs.get('name', None) else [kwargs['name']]
+
+        return [SnapshotType(name=snapshot_name) for snapshot_name in snapshot_names]
