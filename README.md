@@ -2,7 +2,7 @@
 
 Stock watcher app using ML and NLP models to explain stock market movements with news headlines.
 
-## Table of contents
+## 📚 Table of contents
 
 - [Technical stack](#technical-stack)
 - [Features](#features)
@@ -13,19 +13,19 @@ Stock watcher app using ML and NLP models to explain stock market movements with
 - [Contributors](#contributors)
 - [License](#license)
 
-## Technical stack
+## 🛠 Technical stack
 
-## Features
+## 🚀 Features
 
-## Installation
+## ⬇ Installation
 
-## Todo
+## 📋 Todo
 
-## How to contribute
+## 👏 How to contribute
 
-## Acknowledgements
+## 🎉 Acknowledgements
 
-## Contributors
+## 👨‍💻 Contributors
 
 - [Nam Tran Quoc](https://github.com/namtran166) <br/>
 Computer Science major.  
@@ -40,6 +40,6 @@ Computer Science major.
 Case Western Reserve University '22.
 
 
-## License
+## 📄 License
 
 Kronos is [MIT licensed](./LICENSE).
