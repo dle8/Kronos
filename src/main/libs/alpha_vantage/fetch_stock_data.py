@@ -1,5 +1,6 @@
 from src.main.config import config
 import requests
+import json
 
 
 def fetch_stock_current_data(symbol='MSFT', interval='5min', outputsize='compact', **kwargs):
@@ -21,6 +22,5 @@ def fetch_stock_current_data(symbol='MSFT', interval='5min', outputsize='compact
             config.ALPHA_ADVANTAGE_API_KEY
         )
     ).content.decode('utf-8')
-
-    # TODO: response is a JSON string, not a dictionary, so we need to process the information stored in response
-    return response['Time Series (5min)']
+    response = json.loads(response)
+    return response['Time Series ({})'.format(interval)]
