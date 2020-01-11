@@ -24,7 +24,8 @@ class Config(object):
     NEVERBOUNCE_API_KEY = ''
 
     # ALPHA ADVANTAGE
-    ALPHA_ADVANTAGE_API_KEY = ''
+    # Current key is a free API Key claimed from https://www.alphavantage.co/support/#api-key
+    ALPHA_ADVANTAGE_API_KEY = 'Q0F8BZLDLQHKIQWN'
     ALPHA_ADVANTAGE_TIME_SERIES_INTRADAY_API = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={}&interval={}&outputsize={}&apikey={}'
 
     SECRET_KEY = 'secret'
