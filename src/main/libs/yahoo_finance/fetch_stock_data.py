@@ -1,7 +1,7 @@
 import yfinance as yf
 
 
-def fetch_stock_data(symbol, fields=None, **kwargs):
+def fetch_stock_historical_data(symbol, fields=None, **kwargs):
     """
     Fetch historical stock data from Yahoo Finance API
     :param symbol: Stock symbol

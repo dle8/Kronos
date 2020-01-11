@@ -2,7 +2,7 @@ from src.main.config import config
 import requests
 
 
-def fetch_stock_prices(symbol='MSFT', interval='5min', outputsize='compact'):
+def fetch_stock_current_data(symbol='MSFT', interval='5min', outputsize='compact', **kwargs):
     """
     Fetch real time stock price from Alpha Vantage API.
     :param symbol: Stock symbol
@@ -23,5 +23,4 @@ def fetch_stock_prices(symbol='MSFT', interval='5min', outputsize='compact'):
     ).content.decode('utf-8')
 
     # TODO: response is a JSON string, not a dictionary, so we need to process the information stored in response
-    # TODO: the name of this library should be alpha_vantage
     return response['Time Series (5min)']
