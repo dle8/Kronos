@@ -1,0 +1,1192 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - google",
+        "totalResults": "20100000",
+        "searchTerms": "google",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "004633013588841260401:xhqsuqmjfa7",
+        "sort": "date:r:20170101:20180303"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - google",
+        "totalResults": "20100000",
+        "searchTerms": "google",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "004633013588841260401:xhqsuqmjfa7",
+        "sort": "date:r:20170101:20180303"
+      }
+    ]
+  },
+  "context": {
+    "title": "Kronos"
+  },
+  "searchInformation": {
+    "searchTime": 0.344185,
+    "formattedSearchTime": "0.34",
+    "totalResults": "20100000",
+    "formattedTotalResults": "20,100,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Google Conducting Broad Investigation of Russian Influence - WSJ",
+      "htmlTitle": "<b>Google</b> Conducting Broad Investigation of Russian Influence - WSJ",
+      "link": "https://www.wsj.com/articles/google-conducting-broad-investigation-of-russian-influence-1506724811",
+      "displayLink": "www.wsj.com",
+      "snippet": "Sep 29, 2017 ... Google is conducting a broad internal investigation to determine whether \nRussian-linked entities used its ads or services to try to manipulate\u00a0...",
+      "htmlSnippet": "Sep 29, 2017 <b>...</b> <b>Google</b> is conducting a broad internal investigation to determine whether <br>\nRussian-linked entities used its ads or services to try to manipulate&nbsp;...",
+      "formattedUrl": "https://www.wsj.com/.../google-conducting-broad-investigation-of-russian- influence-1506724811",
+      "htmlFormattedUrl": "https://www.wsj.com/.../<b>google</b>-conducting-broad-investigation-of-russian- influence-1506724811",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "318",
+            "height": "159",
+            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9Jmfavz5KcPqVrZaSG--B06H6MQrP00-RXkTBD7ossT1TjJbPInfqHO8"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "dj.asn": "i-01ec",
+            "user.type": "nonsubscriber",
+            "user.exp": "google_bot",
+            "page.section": "Article",
+            "page.content.type": "Article",
+            "page.content.format": "responsive",
+            "page.content.source": "WSJ Online",
+            "article.template": "full",
+            "page.site": "wsj",
+            "page.site.product": "WSJ",
+            "page.region": "na,us",
+            "article.id": "SB11506935182847163333904583423390370084114",
+            "article.type": "Technology",
+            "article.type.display": "Tech",
+            "article.access": "paid",
+            "article.origheadline": "Google Conducting Broad Investigation of Russian Influence",
+            "article.headline": "Google Conducting Broad Investigation of Russian Influence",
+            "article.summary": "Google is conducting a broad internal investigation to determine whether Russian-linked entities used its ads or services to try to manipulate voters ahead of the U.S. election.",
+            "apple-itunes-app": "app-id=364387007,app-argument=wsj://launch?articleid=SB11506935182847163333904583423390370084114&headline=Google%20conducting%20broad%20internal%20investigation%20on%20Russian%20influence&weburl=http://www.wsj.com/articles/SB11506935182847163333904583423390370084114",
+            "al:ios:url": "wsj://launch?articleid=SB11506935182847163333904583423390370084114&headline=Google%20conducting%20broad%20internal%20investigation%20on%20Russian%20influence&weburl=http://www.wsj.com/articles/SB11506935182847163333904583423390370084114",
+            "article.page": "Tech",
+            "article.section": "Tech",
+            "article.published": "2017-09-29T23:04:00.000Z",
+            "article.updated": "2017-09-29T23:04:00.000Z",
+            "article.created": "2017-09-29T22:40:00.000Z",
+            "datelastpubbed": "2017-10-02T14:08:00.000Z",
+            "author": "Jack Nicas and Robert McMillan",
+            "news_keywords": "ads,congress,disclosure,election,investigation,senate intelligence committee,trump,Alphabet Inc. Cl C,GOOGL,GOOG",
+            "article:word_count": "794",
+            "article:image_count": "2",
+            "article:internal_link_count": "7",
+            "hdl_p": "Google Probes Russian Activity On Sites",
+            "language": "en-US",
+            "twitter:title": "Google Conducting Broad Investigation of Russian Influence",
+            "twitter:description": "Google is conducting a broad internal investigation to determine whether Russian-linked entities used its ads or services to try to manipulate voters ahead of the U.S. election.",
+            "twitter:image": "https://si.wsj.net/public/resources/images/BN-VI973_3dS1l_TOP_20170929182430.jpg",
+            "twitter:card": "summary_large_image",
+            "twitter:image:alt": "Google Conducting Broad Investigation of Russian Influence",
+            "twitter:creator": "@jacknicas",
+            "twitter:site": "@WSJ",
+            "twitter:domain": "wsj.com",
+            "fb:app_id": "368513495882",
+            "fb:pages": "8304333127",
+            "og:title": "Google Conducting Broad Investigation of Russian Influence",
+            "og:description": "Google is conducting a broad internal investigation to determine whether Russian-linked entities used its ads or services to try to manipulate voters ahead of the U.S. election.",
+            "og:url": "https://www.wsj.com/articles/google-conducting-broad-investigation-of-russian-influence-1506724811",
+            "og:image": "https://si.wsj.net/public/resources/images/BN-VI973_3dS1l_TOP_20170929182430.jpg",
+            "og:locale": "en_US",
+            "og:type": "article"
+          }
+        ],
+        "imageobject": [
+          {
+            "caption": "Google is conducting a broad internal investigation into possible Russian-linked entities using ads and services before the U.S. election last year. Photo: dado ruvic/Reuters",
+            "creator": "Photo: dado ruvic/Reuters"
+          },
+          {
+            "caption": "House Intelligence Committee ranking Democrat Adam Schiff (D-CA) Photo: jim bourg/Reuters",
+            "creator": "Photo: jim bourg/Reuters"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20191205/20191205thrun/20191205thrun_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20191204/120419natoreceptionv2/120419natoreceptionv2_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20191208/120819hkprotest3/120819hkprotest3_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20191204/120519bignumbbb/120519bignumbbb_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20191206/120619francestrike/120619francestrike_115x65.jpg"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-139488?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-139364?width=111&height=62"
+          },
+          {
+            "contenturl": "https://s.wsj.net/public/resources/images/B3-FT796_stearn_C_20191225231204.jpg"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-139359?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-139303?width=111&height=62"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20191224/tritalks1224/tritalks1224_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20191225/122419opvidvaping4/122419opvidvaping4_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20191220/122419clothingsizes/122419clothingsizes_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20191217/121719hkdoc/121719hkdoc_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20191223/122319opvidgv/122319opvidgv_167x94.jpg"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-139488?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-139364?width=111&height=62"
+          },
+          {
+            "contenturl": "https://s.wsj.net/public/resources/images/B3-FT796_stearn_C_20191225231204.jpg"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-139359?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-139303?width=111&height=62"
+          }
+        ],
+        "webpage": [
+          {
+            "datepublished": "2017-09-29T23:04:00.000Z",
+            "datemodified": "2017-09-29T23:04:00.000Z",
+            "datecreated": "2017-09-29T22:40:00.000Z",
+            "description": "Google is conducting a broad internal investigation to determine whether Russian-linked entities used its ads or services to try to manipulate voters ahead of the U.S. election.",
+            "alternativeheadline": "Google Probes Russian Activity On Sites",
+            "inlanguage": "en-US",
+            "image": "https://si.wsj.net/public/resources/images/BN-VI973_3dS1l_TOP_20170929182430.jpg",
+            "publisher": "wsj.com",
+            "articlebody": "Google is conducting a broad internal investigation into possible Russian-linked entities using ads and services before the U.S. election last year. Photo: dado ruvic/Reuters By Jack Nicas...",
+            "name": "Jack Nicas"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://si.wsj.net/public/resources/images/BN-VI973_3dS1l_TOP_20170929182430.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Google Recalls Staff to U.S. After Trump Immigration Order ...",
+      "htmlTitle": "<b>Google</b> Recalls Staff to U.S. After Trump Immigration Order ...",
+      "link": "https://www.bloomberg.com/news/articles/2017-01-28/google-recalls-some-staff-to-u-s-after-trump-immigration-order",
+      "displayLink": "www.bloomberg.com",
+      "snippet": "Jan 28, 2017 ... Alphabet Inc.'s Google delivered a sharp message to staff traveling overseas who \nmay be impacted by a new executive order on immigration\u00a0...",
+      "htmlSnippet": "Jan 28, 2017 <b>...</b> Alphabet Inc.&#39;s <b>Google</b> delivered a sharp message to staff traveling overseas who <br>\nmay be impacted by a new executive order on immigration&nbsp;...",
+      "cacheId": "Wlv0QhVG7XEJ",
+      "formattedUrl": "https://www.bloomberg.com/.../google-recalls-some-staff-to-u-s-after-trump- immigration-order",
+      "htmlFormattedUrl": "https://www.bloomberg.com/.../<b>google</b>-recalls-some-staff-to-u-s-after-trump- immigration-order",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "290",
+            "height": "174",
+            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSpX0aBtIW98XxDVgUe1CoKxSF1reWClIOP6mtmrGPTwvR_30mBLOJVZAqn"
+          }
+        ],
+        "metatags": [
+          {
+            "iso-8601-publish-date": "2017-01-28T06:39:59.675Z",
+            "checksum": "a56dea65ce93caf483747585bfff93bd",
+            "validatedat": "2020-01-13T05:43:46.568Z",
+            "referrer": "unsafe-url",
+            "al:android:url": "bloomberg://www.bloomberg.com/news/articles/2017-01-28/google-recalls-some-staff-to-u-s-after-trump-immigration-order?utm_medium=applink&utm_source=facebook",
+            "al:android:package": "com.bloomberg.android.plus",
+            "al:android:app_name": "Bloomberg",
+            "og:description": "Alphabet Inc.\u2019s Google delivered a sharp message to staff traveling overseas who may be impacted by a new executive\u00a0order on immigration from President Donald Trump: Get back to the U.S. now.",
+            "og:image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i6UO3WZ4EM1E/v0/1200x721.jpg",
+            "og:site_name": "Bloomberg.com",
+            "og:title": "Google Recalls Staff to U.S. After Trump Immigration Order",
+            "og:type": "article",
+            "og:url": "https://www.bloomberg.com/news/articles/2017-01-28/google-recalls-some-staff-to-u-s-after-trump-immigration-order",
+            "article:opinion": "false",
+            "article:content_tier": "metered",
+            "fb:status": "Alphabet Inc.\u2019s Google delivered a sharp message to staff traveling overseas who may be impacted by a new executive\u00a0order on immigration from President Donald Trump: Get back to the U.S. now.",
+            "twitter:card": "summary_large_image",
+            "twitter:description": "Alphabet Inc.\u2019s Google delivered a sharp message to staff traveling overseas who may be impacted by a new executive\u00a0order on immigration from President Donald Trump: Get back to the U.S. now.",
+            "twitter:image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i6UO3WZ4EM1E/v0/1200x721.jpg",
+            "twitter:site": "@technology",
+            "twitter:title": "Google Recalls Staff to U.S. After Trump Immigration Order",
+            "parsely-title": "Google Recalls Staff to U.S. After Trump Immigration Order",
+            "parsely-link": "https://www.bloomberg.com/news/articles/2017-01-28/google-recalls-some-staff-to-u-s-after-trump-immigration-order",
+            "parsely-type": "post",
+            "parsely-image-url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i6UO3WZ4EM1E/v0/1200x721.jpg",
+            "parsely-pub-date": "2017-01-28T06:39:59.675Z",
+            "parsely-section": "technology",
+            "parsely-tags": "ALPHABET INC-CL A,Immigration,Donald John Trump,Sundar Pichai,Homeland Security,Syria,Iraq,Iran,Sudan,Somalia,Secondary Brand: technology,Secondary Brand: markets,Secondary Brand: business,Region: Global,Page: archived",
+            "parsely-post-id": "OKH7HI6VDKI001",
+            "parsely-author": "Mark Bergen",
+            "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+            "apple-mobile-web-app-capable": "no",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "apple-itunes-app": "app-id=281941097, affiliate-data=ct=smartbanner_mobileweb&pt=8949&utm_source=smart_banner",
+            "sailthru.title": "Google Recalls Staff to U.S. After Trump Immigration Order",
+            "sailthru.author": "Mark Bergen",
+            "sailthru.tags": "ALPHABET INC-CL A,Immigration,Donald John Trump,Sundar Pichai,Homeland Security,Syria,Iraq,Iran,Sudan,Somalia,technology,markets,business",
+            "sailthru.description": "Alphabet Inc.\u2019s Google delivered a sharp message to staff traveling overseas who may be impacted by a new executive\u00a0order on immigration from President Donald Trump: Get back to the U.S. now.",
+            "sailthru.date": "2017-01-28T06:39:59.675Z"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i6UO3WZ4EM1E/v0/1200x721.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Google Issuing Refunds to Advertisers Over Fake Traffic, Plans New ...",
+      "htmlTitle": "<b>Google</b> Issuing Refunds to Advertisers Over Fake Traffic, Plans New ...",
+      "link": "https://www.wsj.com/articles/google-issuing-refunds-to-advertisers-over-fake-traffic-plans-new-safeguard-1503675395",
+      "displayLink": "www.wsj.com",
+      "snippet": "Aug 25, 2017 ... Google is issuing refunds for ads that ran on websites with fake traffic, people \nfamiliar with the situation said, as the web giant develops a tool to\u00a0...",
+      "htmlSnippet": "Aug 25, 2017 <b>...</b> <b>Google</b> is issuing refunds for ads that ran on websites with fake traffic, people <br>\nfamiliar with the situation said, as the web giant develops a tool to&nbsp;...",
+      "formattedUrl": "https://www.wsj.com/.../google-issuing-refunds-to-advertisers-over-fake- traffic-plans-new-safeguard-1503675395",
+      "htmlFormattedUrl": "https://www.wsj.com/.../<b>google</b>-issuing-refunds-to-advertisers-over-fake- traffic-plans-new-safeguard-1503675395",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "318",
+            "height": "159",
+            "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxvFZ1YgD-53ahLdI8XNcjAwes4yg0gfuCZdkFf7q93lXJnLtVbyhyGaE"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "dj.asn": "i-0647",
+            "user.type": "nonsubscriber",
+            "user.exp": "google_bot",
+            "page.section": "Article",
+            "page.content.type": "Article",
+            "page.content.format": "responsive",
+            "page.content.source": "WSJ Online",
+            "article.template": "full",
+            "page.site": "wsj",
+            "page.site.product": "WSJ",
+            "page.region": "na,us",
+            "article.id": "SB11727956569879543801804583352390465499914",
+            "article.type": "CMO",
+            "article.type.display": "CMO",
+            "article.access": "free",
+            "article.origheadline": "Google Issuing Refunds to Advertisers Over Fake Traffic, Plans New Safeguard",
+            "article.headline": "Google Issuing Refunds to Advertisers Over Fake Traffic, Plans New Safeguard",
+            "article.summary": "Google is issuing refunds to advertisers for ads bought through its platform that ran on sites with fraudulent traffic, people familiar with the situation say, as the company develops a tool to give buyers more transparency about their purchases.",
+            "apple-itunes-app": "app-id=364387007,app-argument=wsj://launch?articleid=SB11727956569879543801804583352390465499914&headline=Google%20issuing%20refunds%20to%20advertisers%20over%20fake%20web%20traffic%3B%20plans%20new%20safeguards%20%24GOOGL&weburl=http://www.wsj.com/articles/SB11727956569879543801804583352390465499914",
+            "al:ios:url": "wsj://launch?articleid=SB11727956569879543801804583352390465499914&headline=Google%20issuing%20refunds%20to%20advertisers%20over%20fake%20web%20traffic%3B%20plans%20new%20safeguards%20%24GOOGL&weburl=http://www.wsj.com/articles/SB11727956569879543801804583352390465499914",
+            "article.page": "Media & Marketing",
+            "article.section": "Business",
+            "article.published": "2017-08-25T16:05:00.000Z",
+            "article.updated": "2017-08-25T16:05:00.000Z",
+            "article.created": "2017-08-25T15:36:00.000Z",
+            "datelastpubbed": "2017-08-25T21:22:00.000Z",
+            "author": "Lara O\u2019Reilly",
+            "news_keywords": "ad fraud,bots,doubleclick,fake ad traffic,google ads,google refunds,invalid web traffic,Alphabet,GOOG,corporate crime",
+            "article:word_count": "1078",
+            "article:image_count": "1",
+            "article:internal_link_count": "2",
+            "language": "en-US",
+            "twitter:title": "Google Issuing Refunds to Advertisers Over Fake Traffic, Plans New Safeguard",
+            "twitter:description": "Google is issuing refunds to advertisers for ads bought through its platform that ran on sites with fraudulent traffic, people familiar with the situation say, as the company develops a tool to give buyers more transparency about their purchases.",
+            "twitter:image": "https://si.wsj.net/public/resources/images/BN-UV139_39QTj_TOP_20170825110619.jpg",
+            "twitter:card": "summary_large_image",
+            "twitter:image:alt": "Google Issuing Refunds to Advertisers Over Fake Traffic, Plans New Safeguard",
+            "twitter:creator": "@larakiara",
+            "twitter:site": "@WSJ",
+            "twitter:domain": "wsj.com",
+            "fb:app_id": "368513495882",
+            "fb:pages": "8304333127",
+            "og:title": "Google Issuing Refunds to Advertisers Over Fake Traffic, Plans New Safeguard",
+            "og:description": "Google is issuing refunds to advertisers for ads bought through its platform that ran on sites with fraudulent traffic, people familiar with the situation say, as the company develops a tool to give buyers more transparency about their purchases.",
+            "og:url": "https://www.wsj.com/articles/google-issuing-refunds-to-advertisers-over-fake-traffic-plans-new-safeguard-1503675395",
+            "og:image": "https://si.wsj.net/public/resources/images/BN-UV139_39QTj_TOP_20170825110619.jpg",
+            "og:locale": "en_US",
+            "og:type": "article",
+            "og:site_name": "WSJ"
+          }
+        ],
+        "imageobject": [
+          {
+            "caption": "The Google logo is seen at the company's headquarters in Mountain View, Calif. Photo: Associated Press",
+            "creator": "Photo: Associated Press"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200103/010320trumpsoleimaniv3/010320trumpsoleimaniv3_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200103/010320seibiran1/010320seibiran1_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200102/ozfireresources0102a/ozfireresources0102a_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20191226/123119asiavaping/123119asiavaping_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200104/010420iraqfuneral2/010420iraqfuneral2_115x65.jpg"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143385?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143046?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143321?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143187?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143351?width=111&height=62"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200109/011020officecribsadobe/011020officecribsadobe_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200110/011020-iran-plane-crash/011020-iran-plane-crash_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20191230/usstrikes/usstrikes_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200110/011020ghosninterview10/011020ghosninterview10_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200108/010719bestofces2/010719bestofces2_167x94.jpg"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143385?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143046?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143321?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143187?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143351?width=111&height=62"
+          }
+        ],
+        "webpage": [
+          {
+            "datepublished": "2017-08-25T16:05:00.000Z",
+            "datemodified": "2017-08-25T16:05:00.000Z",
+            "datecreated": "2017-08-25T15:36:00.000Z",
+            "description": "Google is issuing refunds to advertisers for ads bought through its platform that ran on sites with fraudulent traffic, people familiar with the situation say, as the company develops a tool...",
+            "inlanguage": "en-US",
+            "image": "https://si.wsj.net/public/resources/images/BN-UV139_39QTj_TOP_20170825110619.jpg",
+            "publisher": "wsj.com",
+            "articlebody": "The Google logo is seen at the company's headquarters in Mountain View, Calif. Photo: Associated Press By Lara O\u2019Reilly Lara O\u2019Reilly The Wall Street Journal BiographyLara O\u2019Reilly @larakiara...",
+            "name": "Lara O\u2019Reilly"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://si.wsj.net/public/resources/images/BN-UV139_39QTj_TOP_20170825110619.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Council Post: 13 Reasons Google Deserves Its 'Best Company ...",
+      "htmlTitle": "Council Post: 13 Reasons <b>Google</b> Deserves Its &#39;Best Company ...",
+      "link": "https://www.forbes.com/sites/forbestechcouncil/2018/02/08/13-reasons-google-deserves-its-best-company-culture-award/",
+      "displayLink": "www.forbes.com",
+      "snippet": "Feb 8, 2018 ... It's official: Comparably has named Google as the tech company with the best \ncorporate culture. The award is hardly a shock -- even those\u00a0...",
+      "htmlSnippet": "Feb 8, 2018 <b>...</b> It&#39;s official: Comparably has named <b>Google</b> as the tech company with the best <br>\ncorporate culture. The award is hardly a shock -- even those&nbsp;...",
+      "cacheId": "SntIFWxrxogJ",
+      "formattedUrl": "https://www.forbes.com/.../13-reasons-google-deserves-its-best-company- culture-award/",
+      "htmlFormattedUrl": "https://www.forbes.com/.../13-reasons-<b>google</b>-deserves-its-best-company- culture-award/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "310",
+            "height": "163",
+            "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRpyZQyqsrG-S_m7V9mRF3nxn5Qd5wXACFQ_MF07MObjRfs3pf_DAtptzKc"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=2,user-scalable=yes",
+            "apple-itunes-app": "app-id=588647136",
+            "fb:app_id": "123694841080850",
+            "og:site_name": "Forbes",
+            "twitter:site": "@forbes",
+            "author": "Editors, Forbes Technology Council",
+            "og:title": "13 Reasons Google Deserves Its 'Best Company Culture' Award",
+            "og:image": "https://thumbor.forbes.com/thumbor/600x315/https%3A%2F%2Fblogs-images.forbes.com%2Fthumbnails%2Fblog_3949%2Fpt_3949_8687_o.jpg%3Ft%3D1518096606",
+            "og:updated_time": "2018-02-08T12:05:47-05:00",
+            "og:url": "https://www.forbes.com/sites/forbestechcouncil/2018/02/08/13-reasons-google-deserves-its-best-company-culture-award/",
+            "og:description": "It's more than just the awesome perks.",
+            "og:type": "article",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "13 Reasons Google Deserves Its 'Best Company Culture' Award",
+            "twitter:description": "It's more than just the awesome perks.",
+            "twitter:image": "https://thumbor.forbes.com/thumbor/600x300/https%3A%2F%2Fblogs-images.forbes.com%2Fthumbnails%2Fblog_3949%2Fpt_3949_8687_o.jpg%3Ft%3D1518096606",
+            "twitter:creator": "@forbestechcouncil",
+            "article:publisher": "https://www.facebook.com/forbes",
+            "article:author": "Editors, Forbes Technology Council",
+            "article:section": "Tech",
+            "article:section_url": "https://www.forbes.com/technology/",
+            "article:id": "blogAndPostId/blog/post/3949-8687",
+            "article:published": "2018-02-08",
+            "article:modified": "2018-02-08"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://thumbor.forbes.com/thumbor/600x315/https%3A%2F%2Fblogs-images.forbes.com%2Fthumbnails%2Fblog_3949%2Fpt_3949_8687_o.jpg%3Ft%3D1518096606"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Why I Was Fired by Google - WSJ",
+      "htmlTitle": "Why I Was Fired by <b>Google</b> - WSJ",
+      "link": "https://www.wsj.com/articles/why-i-was-fired-by-google-1502481290",
+      "displayLink": "www.wsj.com",
+      "snippet": "Aug 11, 2017 ... I was fired by Google this past Monday for a document that I wrote and circulated \ninternally raising questions about cultural taboos and how\u00a0...",
+      "htmlSnippet": "Aug 11, 2017 <b>...</b> I was fired by <b>Google</b> this past Monday for a document that I wrote and circulated <br>\ninternally raising questions about cultural taboos and how&nbsp;...",
+      "formattedUrl": "https://www.wsj.com/articles/why-i-was-fired-by-google-1502481290",
+      "htmlFormattedUrl": "https://www.wsj.com/articles/why-i-was-fired-by-<b>google</b>-1502481290",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "311",
+            "height": "162",
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS8oNF4DaVFlr5VX8j_VWAcAxbflP8E0uBiYWmvsb_QE5-0h74sA574sDI"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "dj.asn": "i-031d",
+            "user.type": "nonsubscriber",
+            "user.exp": "google_bot",
+            "page.section": "Article",
+            "page.content.type": "Article",
+            "page.content.format": "responsive",
+            "page.content.source": "WSJ Online",
+            "article.template": "full",
+            "page.site": "wsj",
+            "page.site.product": "WSJ",
+            "page.region": "na,us",
+            "article.id": "SB11231246936206934238304583324400818532258",
+            "article.type": "Essay",
+            "article.type.display": "Essay",
+            "article.access": "paid",
+            "article.origheadline": "Why I Was Fired by Google",
+            "article.headline": "Why I Was Fired by Google",
+            "article.summary": "James Damore says his good-faith effort to discuss differences between men and women in tech couldn\u2019t be tolerated in the company\u2019s \u201cideological echo chamber.\u201d",
+            "apple-itunes-app": "app-id=364387007,app-argument=wsj://launch?articleid=SB11231246936206934238304583324400818532258&headline=Why%20I%20was%20fired%20by%20Google&weburl=http://www.wsj.com/articles/SB11231246936206934238304583324400818532258",
+            "al:ios:url": "wsj://launch?articleid=SB11231246936206934238304583324400818532258&headline=Why%20I%20was%20fired%20by%20Google&weburl=http://www.wsj.com/articles/SB11231246936206934238304583324400818532258",
+            "article.page": "Ideas",
+            "article.section": "Life",
+            "article.published": "2017-08-11T19:54:00.000Z",
+            "article.updated": "2017-08-11T19:54:00.000Z",
+            "article.created": "2017-08-11T19:54:00.000Z",
+            "datelastpubbed": "2017-08-14T15:28:00.000Z",
+            "author": "James Damore",
+            "news_keywords": "diversity,google,google manifesto,google memo,james damore,sexism,silicon valley,sundar pichai,women in tech,Google",
+            "article:word_count": "747",
+            "article:image_count": "1",
+            "article:embed_count": "2",
+            "article:internal_link_count": "5",
+            "hdl_p": "Why I Was Fired By Google",
+            "language": "en-US",
+            "twitter:title": "Why I Was Fired by Google",
+            "twitter:description": "James Damore says his good-faith effort to discuss differences between men and women in tech couldn\u2019t be tolerated in the company\u2019s \u201cideological echo chamber.\u201d",
+            "twitter:image": "https://si.wsj.net/public/resources/images/BN-UQ685_GOOGLE_SOC_20170811124736.jpg",
+            "twitter:card": "summary_large_image",
+            "twitter:image:alt": "Why I Was Fired by Google",
+            "twitter:site": "@WSJ",
+            "twitter:domain": "wsj.com",
+            "fb:app_id": "368513495882",
+            "fb:pages": "8304333127",
+            "og:title": "Why I Was Fired by Google",
+            "og:description": "James Damore says his good-faith effort to discuss differences between men and women in tech couldn\u2019t be tolerated in the company\u2019s \u201cideological echo chamber.\u201d",
+            "og:url": "https://www.wsj.com/articles/why-i-was-fired-by-google-1502481290",
+            "og:image": "https://si.wsj.net/public/resources/images/BN-UQ685_GOOGLE_SOC_20170811124736.jpg",
+            "og:locale": "en_US",
+            "og:type": "article"
+          }
+        ],
+        "imageobject": [
+          {
+            "caption": "Former Google software engineer James Damore. Photo: Peter Duke",
+            "creator": "Photo: Peter Duke"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200107/010619cesvision3/010619cesvision3_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200108/010719bestofces2/010719bestofces2_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200108/iron40/iron40_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200102/ozfireresources0102a/ozfireresources0102a_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200105/010520iraqescalationv3/010520iraqescalationv3_115x65.jpg"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143385?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143046?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143187?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143538?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143485?width=111&height=62"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200109/011020officecribsadobe/011020officecribsadobe_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200110/011020-iran-plane-crash/011020-iran-plane-crash_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20191230/usstrikes/usstrikes_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200110/011020ghosninterview10/011020ghosninterview10_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200108/010719bestofces2/010719bestofces2_167x94.jpg"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143385?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143046?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143187?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143538?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143485?width=111&height=62"
+          }
+        ],
+        "webpage": [
+          {
+            "datepublished": "2017-08-11T19:54:00.000Z",
+            "datemodified": "2017-08-11T19:54:00.000Z",
+            "datecreated": "2017-08-11T19:54:00.000Z",
+            "description": "James Damore says his good-faith effort to discuss differences between men and women in tech couldn\u2019t be tolerated in the company\u2019s \u201cideological echo chamber.\u201d",
+            "alternativeheadline": "Why I Was Fired By Google",
+            "inlanguage": "en-US",
+            "image": "https://si.wsj.net/public/resources/images/BN-UQ685_GOOGLE_SOC_20170811124736.jpg",
+            "publisher": "wsj.com",
+            "articlebody": "Former Google software engineer James Damore. Photo: Peter Duke By James Damore Aug. 11, 2017 3:54 pm ET print Text 3,826 I was fired by Google this past Monday for a document that I wrote...",
+            "name": "James Damore"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://si.wsj.net/public/resources/images/BN-UQ685_GOOGLE_SOC_20170811124736.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Google LLC - Company Profile and News - Bloomberg Markets",
+      "htmlTitle": "<b>Google</b> LLC - Company Profile and News - Bloomberg Markets",
+      "link": "https://www.bloomberg.com/profile/company/8888000D:US",
+      "displayLink": "www.bloomberg.com",
+      "snippet": "Company profile page for Google LLC including stock price, company news, \npress releases, executives, board members, and contact information.",
+      "htmlSnippet": "Company profile page for <b>Google</b> LLC including stock price, company news, <br>\npress releases, executives, board members, and contact information.",
+      "cacheId": "_KxZtjzuTS8J",
+      "formattedUrl": "https://www.bloomberg.com/profile/company/8888000D:US",
+      "htmlFormattedUrl": "https://www.bloomberg.com/profile/company/8888000D:US",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "80",
+            "height": "80",
+            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT6dGecjztskn4l7Rt2OBjoP3MDNX65I8S9N0Sd9SAZn3ig9FtO19OOIg"
+          }
+        ],
+        "metatags": [
+          {
+            "title": "Google LLC - Company Profile and News",
+            "og:site_name": "Bloomberg.com",
+            "og:title": "Google LLC - Company Profile and News",
+            "og:description": "Company profile page for Google LLC including stock price, company news, press releases, executives, board members, and contact information",
+            "og:image": "/images/markets-logo.png",
+            "og:type": "company",
+            "og:url": "https://www.bloomberg.com/profile/company/8888000D:US",
+            "twitter:card": "summary",
+            "twitter:description": "Company profile page for Google LLC including stock price, company news, press releases, executives, board members, and contact information",
+            "twitter:title": "Google LLC - Company Profile and News",
+            "twitter:url": "https://www.bloomberg.com/profile/company/8888000D:US",
+            "twitter:creator": "@markets",
+            "twitter:site": "@markets",
+            "viewport": "width=device-width, initial-scale=1"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iTgw1fbkd2xg/v4/80x80.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Google Tests System to Help Locate 911 Callers - WSJ",
+      "htmlTitle": "<b>Google</b> Tests System to Help Locate 911 Callers - WSJ",
+      "link": "https://www.wsj.com/articles/google-tests-system-to-help-locate-911-callers-1518712754",
+      "displayLink": "www.wsj.com",
+      "snippet": "Feb 15, 2018 ... Google quietly ran a test of new technology to make it easier for 911 operators to \nlocate cellphone callers, and 911 centers that participated\u00a0...",
+      "htmlSnippet": "Feb 15, 2018 <b>...</b> <b>Google</b> quietly ran a test of new technology to make it easier for 911 operators to <br>\nlocate cellphone callers, and 911 centers that participated&nbsp;...",
+      "formattedUrl": "https://www.wsj.com/.../google-tests-system-to-help-locate-911-callers- 1518712754",
+      "htmlFormattedUrl": "https://www.wsj.com/.../<b>google</b>-tests-system-to-help-locate-911-callers- 1518712754",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "311",
+            "height": "162",
+            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTo0Uxty51578E49YfGkdcV9OuqDdgG85W4el3HrbikrcP2Yja9LgKEbQo"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "dj.asn": "i-0465",
+            "user.type": "nonsubscriber",
+            "user.exp": "google_bot",
+            "page.section": "Article",
+            "page.content.type": "Article",
+            "page.content.format": "responsive",
+            "page.content.source": "WSJ Online",
+            "article.template": "full",
+            "page.site": "wsj",
+            "page.site.product": "WSJ",
+            "page.region": "na,us",
+            "article.id": "SB11886777183392783558704584047131972471664",
+            "article.type": "Technology",
+            "article.type.display": "Tech",
+            "article.access": "paid",
+            "article.origheadline": "Google Tests System to Help Locate 911 Callers",
+            "article.headline": "Google Tests System to Help Locate 911 Callers",
+            "article.summary": "Alphabet Inc.\u2019s Google tested of new technology in 50 U.S. 911 call centers aimed at making it easier for dispatchers to determine cellphone callers\u2019 locations, and participants said the results were promising.",
+            "apple-itunes-app": "app-id=364387007,app-argument=wsj://launch?articleid=SB11886777183392783558704584047131972471664&headline=Google%20is%20testing%20new%20tech%20to%20help%20911%20dispatchers%20find%20emergency%20cellphone%20callers%20more%20quickly&weburl=http://www.wsj.com/articles/SB11886777183392783558704584047131972471664",
+            "al:ios:url": "wsj://launch?articleid=SB11886777183392783558704584047131972471664&headline=Google%20is%20testing%20new%20tech%20to%20help%20911%20dispatchers%20find%20emergency%20cellphone%20callers%20more%20quickly&weburl=http://www.wsj.com/articles/SB11886777183392783558704584047131972471664",
+            "article.page": "Tech",
+            "article.section": "Tech",
+            "article.published": "2018-02-15T17:12:00.000Z",
+            "article.updated": "2018-02-15T17:12:00.000Z",
+            "article.created": "2018-02-15T16:39:00.000Z",
+            "datelastpubbed": "2018-02-15T17:34:00.000Z",
+            "author": "Ryan Knutson",
+            "news_keywords": "911,911 calls on cellphones,911 on a cellphone,dispatcher,emergency call center,google,how old is the u.s. 911 system,location,technology,wireless carriers",
+            "article:word_count": "569",
+            "article:image_count": "1",
+            "article:internal_link_count": "1",
+            "language": "en-US",
+            "twitter:title": "Google Tests System to Help Locate 911 Callers",
+            "twitter:description": "Alphabet Inc.\u2019s Google tested of new technology in 50 U.S. 911 call centers aimed at making it easier for dispatchers to determine cellphone callers\u2019 locations, and participants said the results were promising.",
+            "twitter:image": "https://images.wsj.net/im-2172/social",
+            "twitter:card": "summary_large_image",
+            "twitter:image:alt": "Google Tests System to Help Locate 911 Callers",
+            "twitter:creator": "@Ryan_Knutson",
+            "twitter:site": "@WSJ",
+            "twitter:domain": "wsj.com",
+            "fb:app_id": "368513495882",
+            "fb:pages": "8304333127",
+            "og:title": "Google Tests System to Help Locate 911 Callers",
+            "og:description": "Alphabet Inc.\u2019s Google tested of new technology in 50 U.S. 911 call centers aimed at making it easier for dispatchers to determine cellphone callers\u2019 locations, and participants said the results were promising.",
+            "og:url": "https://www.wsj.com/articles/google-tests-system-to-help-locate-911-callers-1518712754",
+            "og:image": "https://images.wsj.net/im-2172/social",
+            "og:image:width": "900",
+            "og:image:height": "471",
+            "og:locale": "en_US"
+          }
+        ],
+        "imageobject": [
+          {
+            "caption": "Pam Sudul, a senior dispatcher and trainer, took an emergency call at the Hillsborough County Sherrif's Office Communication Bureau on Jan. 31. Photo: Chris Urso/Zuma Press",
+            "creator": "Photo: Chris Urso/Zuma Press"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200107/010720iranstampedev3a/010720iranstampedev3a_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200107/010720puertoricoearthquakev4/010720puertoricoearthquakev4_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200109/011020iranboeing/011020iranboeing_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200107/iranplane0110/iranplane0110_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200105/wsjglossarystockbuybackssplash/wsjglossarystockbuybackssplash_115x65.jpg"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-142911?width=111&height=62"
+          },
+          {
+            "contenturl": "https://s.wsj.net/public/resources/images/B3-FV593_FIXERS_C_20200108110258.jpg"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-141277?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-142933?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-142928?width=111&height=62"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200109/011020officecribsadobe/011020officecribsadobe_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200110/011020-iran-plane-crash/011020-iran-plane-crash_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200109/newfoeanimation5/newfoeanimation5_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200107/iranplane0110/iranplane0110_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200109/011020iranboeing/011020iranboeing_167x94.jpg"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-142911?width=111&height=62"
+          },
+          {
+            "contenturl": "https://s.wsj.net/public/resources/images/B3-FV593_FIXERS_C_20200108110258.jpg"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-141277?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-142933?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-142928?width=111&height=62"
+          }
+        ],
+        "webpage": [
+          {
+            "datepublished": "2018-02-15T17:12:00.000Z",
+            "datemodified": "2018-02-15T17:12:00.000Z",
+            "datecreated": "2018-02-15T16:39:00.000Z",
+            "description": "Alphabet Inc.\u2019s Google tested of new technology in 50 U.S. 911 call centers aimed at making it easier for dispatchers to determine cellphone callers\u2019 locations, and participants said the...",
+            "inlanguage": "en-US",
+            "image": "https://images.wsj.net/im-2172/social",
+            "publisher": "wsj.com",
+            "articlebody": "Pam Sudul, a senior dispatcher and trainer, took an emergency call at the Hillsborough County Sherrif's Office Communication Bureau on Jan. 31. Photo: Chris Urso/Zuma Press By Ryan Knutson...",
+            "name": "Ryan Knutson"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.wsj.net/im-2172/social"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Google Brings Fake News Fact-Checking to Search Results ...",
+      "htmlTitle": "<b>Google</b> Brings Fake News Fact-Checking to Search Results ...",
+      "link": "https://www.bloomberg.com/news/articles/2017-04-07/google-brings-fake-news-fact-checking-to-search-results",
+      "displayLink": "www.bloomberg.com",
+      "snippet": "Apr 7, 2017 ... Search giant is letting partners and publishers decide what's true, what's false \nand what's in between.",
+      "htmlSnippet": "Apr 7, 2017 <b>...</b> Search giant is letting partners and publishers decide what&#39;s true, what&#39;s false <br>\nand what&#39;s in between.",
+      "cacheId": "c-rDaUpMdyMJ",
+      "formattedUrl": "https://www.bloomberg.com/.../google-brings-fake-news-fact-checking-to- search-results",
+      "htmlFormattedUrl": "https://www.bloomberg.com/.../<b>google</b>-brings-fake-news-fact-checking-to- search-results",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "255",
+            "height": "198",
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRYagIf3e6dxD2U3UMHBfALZne57_r6cdnlNnEfMTWUNJwYGN13u2ScHLg"
+          }
+        ],
+        "metatags": [
+          {
+            "iso-8601-publish-date": "2017-04-07T07:05:06.338Z",
+            "checksum": "c456b5b0021f15c6e6b42236e77c6bd4",
+            "validatedat": "2020-01-10T12:37:45.741Z",
+            "referrer": "unsafe-url",
+            "al:android:url": "bloomberg://www.bloomberg.com/news/articles/2017-04-07/google-brings-fake-news-fact-checking-to-search-results?utm_medium=applink&utm_source=facebook",
+            "al:android:package": "com.bloomberg.android.plus",
+            "al:android:app_name": "Bloomberg",
+            "og:description": "Search giant is letting partners and publishers decide\u00a0what's true, what's false and what's in between.",
+            "og:image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iNAQeeenxEDI/v0/1200x933.png",
+            "og:site_name": "Bloomberg.com",
+            "og:title": "Google Brings Fake News Fact-Checking to Search Results",
+            "og:type": "article",
+            "og:url": "https://www.bloomberg.com/news/articles/2017-04-07/google-brings-fake-news-fact-checking-to-search-results",
+            "article:opinion": "false",
+            "article:content_tier": "metered",
+            "fb:status": "Search giant is letting partners and publishers decide\u00a0what's true, what's false and what's in between.",
+            "twitter:card": "summary_large_image",
+            "twitter:description": "Search giant is letting partners and publishers decide\u00a0what's true, what's false and what's in between.",
+            "twitter:image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iNAQeeenxEDI/v0/1200x933.png",
+            "twitter:site": "@technology",
+            "twitter:title": "Google Brings Fake News Fact-Checking to Search Results",
+            "parsely-title": "Google Brings Fake News Fact-Checking to Search Results",
+            "parsely-link": "https://www.bloomberg.com/news/articles/2017-04-07/google-brings-fake-news-fact-checking-to-search-results",
+            "parsely-type": "post",
+            "parsely-image-url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iNAQeeenxEDI/v0/1200x933.png",
+            "parsely-pub-date": "2017-04-07T07:05:06.338Z",
+            "parsely-section": "technology",
+            "parsely-tags": "ALPHABET INC-CL A,FACEBOOK INC-CLASS A,Youtube,Washington,NEW YORK TIMES CO-A,Social Network,Sundar Pichai,Culture,Americas,United States,Secondary Brand: technology,Region: Global,Page: archived",
+            "parsely-post-id": "OO12CI6K50XU01",
+            "parsely-author": "Mark Bergen",
+            "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+            "apple-mobile-web-app-capable": "no",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "apple-itunes-app": "app-id=281941097, affiliate-data=ct=smartbanner_mobileweb&pt=8949&utm_source=smart_banner",
+            "sailthru.title": "Google Brings Fake News Fact-Checking to Search Results",
+            "sailthru.author": "Mark Bergen",
+            "sailthru.tags": "ALPHABET INC-CL A,FACEBOOK INC-CLASS A,Youtube,Washington,NEW YORK TIMES CO-A,Social Network,Sundar Pichai,Culture,Americas,United States,technology",
+            "sailthru.description": "Search giant is letting partners and publishers decide\u00a0what's true, what's false and what's in between.",
+            "sailthru.date": "2017-04-07T07:05:06.338Z"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iNAQeeenxEDI/v0/1200x933.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Google-Hotel Travelopoly - WSJ",
+      "htmlTitle": "<b>Google</b>-Hotel Travelopoly - WSJ",
+      "link": "https://www.wsj.com/articles/google-hotel-travelopoly-1514419414",
+      "displayLink": "www.wsj.com",
+      "snippet": "Dec 27, 2017 ... Google also operates its own \u201cmeta\u201d hotel search that appears below auction ads \nand above generic search results. If users search for a hotel,\u00a0...",
+      "htmlSnippet": "Dec 27, 2017 <b>...</b> <b>Google</b> also operates its own \u201cmeta\u201d hotel search that appears below auction ads <br>\nand above generic search results. If users search for a hotel,&nbsp;...",
+      "formattedUrl": "https://www.wsj.com/articles/google-hotel-travelopoly-1514419414",
+      "htmlFormattedUrl": "https://www.wsj.com/articles/<b>google</b>-hotel-travelopoly-1514419414",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "318",
+            "height": "159",
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDTSs1rcIiyQXdFR64Wwz_tvILsF1Ey02iKyvlERTR_KoYjWREHU_597o"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "dj.asn": "i-013f",
+            "user.type": "nonsubscriber",
+            "user.exp": "google_bot",
+            "page.section": "Article",
+            "page.content.type": "Article",
+            "page.content.format": "responsive",
+            "page.content.source": "WSJ Online",
+            "article.template": "full",
+            "page.site": "wsj",
+            "page.site.product": "WSJ",
+            "page.region": "na,us",
+            "article.id": "SB12256766186956434836304583574161431555332",
+            "article.type": "Review & Outlook (U.S.)",
+            "article.type.display": "Review & Outlook",
+            "article.access": "paid",
+            "article.origheadline": "Google-Hotel Travelopoly",
+            "article.headline": "Google-Hotel Travelopoly",
+            "article.summary": "The search giant works with hotels to hurt travel competition.",
+            "apple-itunes-app": "app-id=364387007,app-argument=wsj://launch?articleid=SB12256766186956434836304583574161431555332&headline=Google-Hotel%20Travelopoly&weburl=http://www.wsj.com/articles/SB12256766186956434836304583574161431555332",
+            "al:ios:url": "wsj://launch?articleid=SB12256766186956434836304583574161431555332&headline=Google-Hotel%20Travelopoly&weburl=http://www.wsj.com/articles/SB12256766186956434836304583574161431555332",
+            "article.page": "Editorial",
+            "article.section": "Opinion",
+            "article.published": "2017-12-28T00:03:00.000Z",
+            "article.updated": "2017-12-28T00:03:00.000Z",
+            "article.created": "2017-12-28T00:03:00.000Z",
+            "datelastpubbed": "2017-12-28T00:03:00.000Z",
+            "author": "The Editorial Board",
+            "news_keywords": "google, kayak, monopoly, online travel agent, priceline, travelocity, travelzoo,Google,GOOGL,political",
+            "article:word_count": "866",
+            "article:image_count": "1",
+            "hdl_p": "Google-Hotel Travelopoly",
+            "language": "en-US",
+            "twitter:title": "Google-Hotel Travelopoly",
+            "twitter:description": "The search giant works with hotels to hurt travel competition.",
+            "twitter:image": "https://si.wsj.net/public/resources/images/BN-WT791_3lAZx_TOP_20171227164535.jpg",
+            "twitter:card": "summary_large_image",
+            "twitter:image:alt": "Google-Hotel Travelopoly",
+            "twitter:site": "@WSJ",
+            "twitter:domain": "wsj.com",
+            "fb:app_id": "368513495882",
+            "fb:pages": "8304333127",
+            "og:title": "Google-Hotel Travelopoly",
+            "og:description": "The search giant works with hotels to hurt travel competition.",
+            "og:url": "https://www.wsj.com/articles/google-hotel-travelopoly-1514419414",
+            "og:image": "https://si.wsj.net/public/resources/images/BN-WT791_3lAZx_TOP_20171227164535.jpg",
+            "og:locale": "en_US",
+            "og:type": "article",
+            "og:site_name": "WSJ",
+            "article:publisher": "https://www.facebook.com/wsj"
+          }
+        ],
+        "imageobject": [
+          {
+            "caption": "The Expedia Inc. logo is displayed on a model of an aircraft at the company's offices, Hong Kong, Oct. 13. Photo: Anthony Kwan/Bloomberg News",
+            "creator": "Photo: Anthony Kwan/Bloomberg News"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200107/010720puertoricoearthquakev4/010720puertoricoearthquakev4_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200105/010520iraqescalationv3/010520iraqescalationv3_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200107/010720quds/010720quds_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200108/010719bestofces2/010719bestofces2_115x65.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200108/010820ghosnupdate/010820ghosnupdate_115x65.jpg"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143385?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143046?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143187?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143321?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143433?width=111&height=62"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200109/011020officecribsadobe/011020officecribsadobe_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200110/011020-iran-plane-crash/011020-iran-plane-crash_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20191230/usstrikes/usstrikes_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200110/011020ghosninterview10/011020ghosninterview10_167x94.jpg"
+          },
+          {
+            "contenturl": "https://m.wsj.net/video/20200108/010719bestofces2/010719bestofces2_167x94.jpg"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143385?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143046?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143187?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143321?width=111&height=62"
+          },
+          {
+            "contenturl": "https://images.wsj.net/im-143433?width=111&height=62"
+          }
+        ],
+        "webpage": [
+          {
+            "datepublished": "2017-12-28T00:03:00.000Z",
+            "datemodified": "2017-12-28T00:03:00.000Z",
+            "datecreated": "2017-12-28T00:03:00.000Z",
+            "description": "The search giant works with hotels to hurt travel competition.",
+            "alternativeheadline": "Google-Hotel Travelopoly",
+            "inlanguage": "en-US",
+            "image": "https://si.wsj.net/public/resources/images/BN-WT791_3lAZx_TOP_20171227164535.jpg",
+            "publisher": "wsj.com",
+            "articlebody": "By The Editorial Board The Editorial Board The Wall Street Journal BiographyThe Editorial Board Dec. 27, 2017 7:03 pm ET print Text 194 The Expedia Inc. logo is displayed on a model of an aircraft...",
+            "name": "The Editorial Board"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://si.wsj.net/public/resources/images/BN-WT791_3lAZx_TOP_20171227164535.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How Google's Quantum Computer Could Change the World - WSJ",
+      "htmlTitle": "How <b>Google&#39;s</b> Quantum Computer Could Change the World - WSJ",
+      "link": "https://www.wsj.com/articles/how-googles-quantum-computer-could-change-the-world-1508158847",
+      "displayLink": "www.wsj.com",
+      "snippet": "Oct 16, 2017 ... Hartmut Neven believes in parallel universes. On a recent morning outside \nGoogle's Los Angeles office, the 53-year-old computer scientist was\u00a0...",
+      "htmlSnippet": "Oct 16, 2017 <b>...</b> Hartmut Neven believes in parallel universes. On a recent morning outside <br>\n<b>Google&#39;s</b> Los Angeles office, the 53-year-old computer scientist was&nbsp;...",
+      "formattedUrl": "https://www.wsj.com/.../how-googles-quantum-computer-could-change-the- world-1508158847",
+      "htmlFormattedUrl": "https://www.wsj.com/.../how-<b>googles</b>-quantum-computer-could-change-the- world-1508158847",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "275",
+            "height": "183",
+            "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRMGYzfL3VlZ0H4JUrw10oLi76rwN9Ux8Im52lsYYOsCQM55qwjuvZKlD0b"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "dj.asn": "i-0bdc",
+            "user.type": "nonsubscriber",
+            "user.exp": "google_bot",
+            "page.section": "Article",
+            "page.content.type": "Article",
+            "page.content.source": "WSJ Online",
+            "article.template": "full-immersive",
+            "page.site": "wsj",
+            "page.site.product": "WSJ",
+            "page.region": "na,us",
+            "article.id": "SB10228963900121534899104583447412075322462",
+            "article.type": "The Future of Everything",
+            "article.type.display": "The Future of Everything",
+            "article.access": "paid",
+            "article.origheadline": "How Google\u2019s Quantum Computer Could Change the World",
+            "article.headline": "How Google\u2019s Quantum Computer Could Change the World",
+            "article.summary": "The ultra-powerful machine has the potential to disrupt everything from science and medicine to national security\u2014assuming it works",
+            "apple-itunes-app": "app-id=364387007,app-argument=wsj://launch?articleid=SB10228963900121534899104583447412075322462&headline=How%20Google%u2019s%20quantum%20computer%20could%20change%20the%20world&weburl=http://www.wsj.com/articles/SB10228963900121534899104583447412075322462",
+            "al:ios:url": "wsj://launch?articleid=SB10228963900121534899104583447412075322462&headline=How%20Google%u2019s%20quantum%20computer%20could%20change%20the%20world&weburl=http://www.wsj.com/articles/SB10228963900121534899104583447412075322462",
+            "article.page": "Ideas",
+            "article.section": "Life",
+            "article.published": "2017-10-17T00:06:00.000Z",
+            "article.updated": "2017-10-17T00:06:00.000Z",
+            "article.created": "2017-10-16T13:00:00.000Z",
+            "datelastpubbed": "2018-04-03T13:51:00.000Z",
+            "author": "Jack Nicas",
+            "news_keywords": "future of computers,future of everything,google,hartmut neven,quantum computing,quantum mechanics,qubits,superposition,Alphabet Inc. Cl C,GOOGL",
+            "article:word_count": "2188",
+            "article:image_count": "3",
+            "article:embed_count": "6",
+            "article:internal_link_count": "7",
+            "article:external_link_count": "5",
+            "language": "en-US",
+            "twitter:title": "How Google\u2019s Quantum Computer Could Change the World",
+            "twitter:description": "The ultra-powerful machine has the potential to disrupt everything from science and medicine to national security\u2014assuming it works",
+            "twitter:image": "https://si.wsj.net/public/resources/images/BN-VM775_quantu_G_20171009174851.jpg",
+            "twitter:card": "summary_large_image",
+            "twitter:image:alt": "How Google\u2019s Quantum Computer Could Change the World",
+            "twitter:creator": "@jacknicas",
+            "twitter:site": "@WSJ",
+            "twitter:domain": "wsj.com",
+            "fb:app_id": "368513495882",
+            "fb:pages": "8304333127",
+            "og:title": "How Google\u2019s Quantum Computer Could Change the World",
+            "og:description": "The ultra-powerful machine has the potential to disrupt everything from science and medicine to national security\u2014assuming it works",
+            "og:url": "https://www.wsj.com/articles/how-googles-quantum-computer-could-change-the-world-1508158847",
+            "og:image": "https://si.wsj.net/public/resources/images/BN-VM775_quantu_G_20171009174851.jpg",
+            "og:image:width": "553",
+            "og:image:height": "369"
+          }
+        ],
+        "newsarticle": [
+          {
+            "datepublished": "2017-10-17T00:06:00.000Z",
+            "datemodified": "2017-10-17T00:06:00.000Z",
+            "datecreated": "2017-10-16T13:00:00.000Z",
+            "description": "The ultra-powerful machine has the potential to disrupt everything from science and medicine to national security\u2014assuming it works",
+            "inlanguage": "en-US",
+            "image": "https://si.wsj.net/public/resources/images/BN-VM775_quantu_G_20171009174851.jpg",
+            "publisher": "wsj.com",
+            "headline": "How Google\u2019s Quantum Computer Could Change the World",
+            "articlebody": "By Jack Nicas Jack Nicas The Wall Street Journal BiographyJack Nicas @jacknicas jnicas Jack.Nicas@dowjones.com October 16, 2017 Share Text 328 Responses Hartmut Neven believes in parallel universes...",
+            "name": "Jack Nicas"
+          }
+        ],
+        "imageobject": [
+          {
+            "caption": "Inside Google\u2019s Santa Barbara, Calif. lab, where the company\u2019s delicate quantum chips sit frozen in a cryostat suspended off the floor. Photo: Spencer Lowell for The Wall Street Journal",
+            "creator": "Photo: Spencer Lowell for The Wall Street Journal"
+          },
+          {
+            "caption": "Google\u2019s 64-square-millimeter chips are currently the most advanced general-purpose quantum computers in the world. Photo: Spencer Lowell for The Wall Street Journal",
+            "creator": "Photo: Spencer Lowell for The Wall Street Journal"
+          },
+          {
+            "caption": "Illustration: Todd Detwiler",
+            "creator": "Illustration: Todd Detwiler"
+          },
+          {
+            "caption": "A look under the microscope at Google\u2019s 64-square-millimeter chip reveals a sly bit of branding: the company\u2019s name spelled out along the bottom. Photo: Spencer Lowell for The Wall Street Journal",
+            "creator": "Photo: Spencer Lowell for The Wall Street Journal"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://si.wsj.net/public/resources/images/BN-VM775_quantu_G_20171009174851.jpg"
+          }
+        ]
+      }
+    }
+  ]
+}

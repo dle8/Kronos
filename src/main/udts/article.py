@@ -1,6 +1,8 @@
-from src.main import cluster
+from src.main import cluster, session
 from cassandra.cqlengine.columns import *
 from cassandra.cqlengine.usertype import UserType
+
+session.execute("""CREATE TYPE IF NOT EXISTS article (url text, thumbnail text, title text, snippet text);""")
 
 
 class Article(UserType):

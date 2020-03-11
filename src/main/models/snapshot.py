@@ -1,3 +1,4 @@
+from cassandra.cqlengine import connection
 from cassandra.cqlengine.columns import *
 from cassandra.cqlengine.models import Model
 from cassandra.cqlengine.management import sync_table
@@ -16,4 +17,5 @@ class Snapshot(Model):
     articles = Set(UserDefinedType(Article))
 
 
+connection.setup(['127.0.0.1'], "kronos", protocol_version=3)
 sync_table(Snapshot)

@@ -1,10 +1,8 @@
 from graphene import String, Int, ObjectType, List, NonNull, Date
-from src.main.libs.alpha_advantage.query_stock import fetch_stock_prices
+from src.main.libs.alpha_vantage.fetch_stock_data import fetch_stock_current_data
 from src.main.schemas.article import ArticleType
 from src.main.libs.google_search.fetch_article_metadata import fetch_url_metadata
 from src.main.utils.fetch_stock import fetch_stock_all_methods
-
-from datetime import datetime
 
 
 @fetch_stock_all_methods
@@ -12,8 +10,6 @@ class StockType(ObjectType):
     name = String(required=True)
     symbol = String(required=True, symbol=String())  # Index in Cassandra
     price = Int()
-    start_date = Date()
-    end_date = Date(default_value=datetime.now().date)
     articles = List(
         NonNull(ArticleType),
         start=Int(default_value=1)
@@ -27,10 +23,9 @@ class StockType(ObjectType):
     def resolve_symbol(parent, info, **kwargs):
         return kwargs['symbol']
 
-    # Query stock intra day price for each 1 min
     @staticmethod
     def resolve_price(parent, info, **kwargs):
-        prices = fetch_stock_prices(kwargs['symbol'])
+        prices = fetch_stock_current_data(kwargs['symbol'])
         list_prices = list(prices.items())
         price = list_prices[0][1]['4. close']
 

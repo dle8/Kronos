@@ -1,3 +1,4 @@
+from cassandra.cqlengine import connection
 from cassandra.cqlengine.models import Model
 from cassandra.cqlengine.columns import *
 from cassandra.cqlengine.management import sync_table
@@ -13,4 +14,5 @@ class Article(Model):
     date_published = Date(required=True)
 
 
+connection.setup(['127.0.0.1'], "kronos", protocol_version=3)
 sync_table(Article)

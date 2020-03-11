@@ -16,7 +16,7 @@ class Config(object):
 
     # CASSANDRA
     KEYSPACE = 'kronos'
-    REPLICATION_FACTOR = 3
+    REPLICATION_FACTOR = '3'
     STRATEGY = 'SimpleStrategy'
 
     # NEVERBOUNCE

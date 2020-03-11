@@ -1,3 +1,4 @@
+from cassandra.cqlengine import connection
 from cassandra.cqlengine.models import Model
 from cassandra.cqlengine.management import sync_table
 from cassandra.cqlengine.columns import *
@@ -11,4 +12,5 @@ class UserArticle(Model):
     urls = Set(Text)
 
 
+connection.setup(['127.0.0.1'], "kronos", protocol_version=3)
 sync_table(UserArticle)
