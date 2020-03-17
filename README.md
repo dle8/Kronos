@@ -1,6 +1,6 @@
 # [Kronos](https://github.com/dle8/Kronos) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/dle8/Kronos/blob/master/LICENSE) 
 
-Stock watcher app using NLP models to explain stock market movements with news headlines.
+Stock watcher app using Google APIs to explain stock market movements with news headlines.
 
 ## 📚 Table of contents
 
